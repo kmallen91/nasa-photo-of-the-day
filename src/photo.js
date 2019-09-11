@@ -13,7 +13,7 @@ axios
     console.log("Photo Data", response);
     const photo = response.data;
     setPhoto(photo);
-    console.log("photo", photo)
+    
 })
 .catch(error => {
     console.log("ERROR", error)
