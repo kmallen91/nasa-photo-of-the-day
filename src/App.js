@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 // import axios from "axios";
 import Photo from "./photo"
-// import Drop from "./Drop"
+import Footer from "./footer"
+
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Photo />
     </div>
     <div>
+      <Footer />
 
-      
+
     </div>
     
     </div>

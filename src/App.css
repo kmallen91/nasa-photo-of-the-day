@@ -47,3 +47,25 @@
   margin:5vh;
   background:white;
 }
+
+.footer{
+  display:flex;
+  justify-content: space-around;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+}
+
+nav a{
+  margin: 5vh;
+  text-decoration: none;
+  color:black;
+  padding:20px;
+}
+
+.footer-img{
+  height:15vh;
+  width:25vh;
+}
