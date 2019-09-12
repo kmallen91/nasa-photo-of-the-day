@@ -1,16 +1,18 @@
 .App {
   text-align: center;
+  margin:5vh;
+  margin-bottom: 35vh;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +37,13 @@
 .photoImg{
   width:100%;
   height:90vh;
+}
+
+.nasa{
+  font-size: 4rem;
+}
+
+.popover{
+  margin:5vh;
+  background:white;
 }

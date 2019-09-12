@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react"
 import axios from "axios"
 import PhotoCard from "./PhotoCard"
+import JumboTitle from "./Jumbotron"
+import DescriptButton from "./DescriptionCard"
 
 export default function Photo (){
 
@@ -21,12 +23,16 @@ axios
 }, [])
 
 return (
-    
+    <div>
+    <JumboTitle 
+    title={currentPhoto.title}
+    date={currentPhoto.date}
+    />
      <PhotoCard 
-     title={currentPhoto.title}
-     hdurl={currentPhoto.hdurl} 
-     explanation={currentPhoto.explanation}
-     date={currentPhoto.date} 
+     
+     hdurl={currentPhoto.hdurl}        
      copyright={currentPhoto.copyright} />
+     <DescriptButton explanation={currentPhoto.explanation} title={currentPhoto.title} />   
+     </div>
 )
 }

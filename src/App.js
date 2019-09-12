@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 // import axios from "axios";
 import Photo from "./photo"
+// import Drop from "./Drop"
 
 function App() {
   return (
@@ -11,11 +12,20 @@ function App() {
     </div>
 
     <div className="App">
-      
+      <h1 className="nasa">NASA Astronomy Photo of the Day</h1>
+      {/* <Drop /> */}
       <Photo />
     </div>
+    <div>
+
+      
+    </div>
+    
     </div>
   )
 }
 
+
+
 export default App;
+
