@@ -51,6 +51,7 @@
 .footer{
   display:flex;
   justify-content: space-around;
+  background-color:  #282c34;
 }
 
 nav{
@@ -61,7 +62,7 @@ nav{
 nav a{
   margin: 5vh;
   text-decoration: none;
-  color:black;
+  color:white;
   padding:20px;
 }
 
